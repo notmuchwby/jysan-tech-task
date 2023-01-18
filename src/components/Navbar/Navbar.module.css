@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #ffffff;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.navTitleContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.arrow {
+    color: #A3ACB6;
+}
+
+.arrow:hover {
+    color: #8d8d8e;
+    cursor: pointer;
+}
+
+.navTitle {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
