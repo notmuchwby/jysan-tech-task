@@ -47,7 +47,7 @@ const Calculator = () => {
        </div>
        <div className={styles.rangeNumsContainer}>
         <span className={styles.firstRangeNum}>$10 000</span>
-        <span className={styles.secondRangeNum}>1 000 000$</span>
+        <span className={styles.secondRangeNum}>2 000 000$</span>
        </div>
 
        <div className={styles.investDueContainer}>

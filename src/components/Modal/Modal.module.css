@@ -1,0 +1,32 @@
+.button {
+    width: 332px;
+    height: 40px;
+    background: linear-gradient(90deg, #FF7253 0%, #F05323 100%);
+    border-radius: 6px;
+    border: 0px ;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.buttonContainer {
+    margin-left: 15px;
+    width: 360px;
+    height: 52px;
+}
+.button:hover {
+    cursor: pointer;
+}
+
+.buy {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.pie {
+    text-transform: lowercase;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+}
