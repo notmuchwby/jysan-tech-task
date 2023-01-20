@@ -7,13 +7,15 @@ import styles from './Modal.module.css'
 
 const style = {
   position: 'absolute',
-  top: '50%',
-  left: '50%',
+  marginTop: 50,
+  marginLeft: 24,
   transform: 'translate(-50%, -50%)',
   width: 300,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
+  bgcolor: '#FF7253',
+  borderRadius: 2,
+  fontWeight: 700,
   boxShadow: 24,
+  color: '#ffffff',
   p: 4,
 };
 
@@ -34,8 +36,8 @@ export default function BasicModal() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-          Спасибо!
+          <Typography className={styles.box} id="modal-modal-title" variant="h6" component="h2">
+            Спасибо!
           </Typography>
         </Box>
       </Modal>

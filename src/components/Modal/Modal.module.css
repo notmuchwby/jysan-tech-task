@@ -17,6 +17,10 @@
     cursor: pointer;
 }
 
+.box {
+    margin-left: 90px;
+}
+
 .buy {
     text-transform: capitalize;
     font-weight: 700;
