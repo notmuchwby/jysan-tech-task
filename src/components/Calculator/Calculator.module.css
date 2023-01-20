@@ -1,0 +1,164 @@
+.calculatorContainer {
+    width: 330px;
+    height: 304px;
+    margin: 20px 15px;
+    /* border: 1px solid red; */
+     border: 1px solid #EDEEF0;
+    border-radius: 12px;
+}
+
+.titleContainer {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #193048;
+}
+
+.infoIcon {
+    color:  #F05323;
+    margin-left: 6px;
+    margin-top: 1px;
+}
+
+.infoIcon:hover {
+    cursor: pointer;
+}
+
+.investSumContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.investSumTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6C7B8A;
+}
+
+.investSumValue {
+    margin-top: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #193048;
+}
+
+.sliderContainer {
+    margin-top: 3px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstRangeNum {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #193048;
+    margin-left: 10px;
+}
+
+.secondRangeNum {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #193048;
+    margin-left: 210px;
+}
+
+.investDueContainer {
+    margin-top: 10px;
+}
+
+.investDue {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6C7B8A;
+    margin-left: 10px;
+}
+
+.buttons {
+    
+}
+
+.button {
+    border: 1px solid #A3ACB6;
+    border-radius: 20px;
+    margin-left: 3px;
+    margin-top: 5px;
+    width: 70px;
+    padding: 6px 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: #ffffff;
+    color: #193048;
+}
+
+.button:hover {
+    cursor: pointer;
+    border: 1px solid #a3acb682;
+}
+
+.buttonSelected {
+    background-color: #ffffff;
+    border: 1px solid #F05323;
+    border-radius: 20px;
+    width: 70px;
+    padding: 6px 12px;
+    font-style: normal;
+    margin-left: 3px;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #F05323;
+}
+
+.buttons {
+    border-bottom: 1px solid #EDEEF0;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+
+.incomeContainer {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.incomeTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #193048;
+}
+
+.incomeValue {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+color: #F05323;
+
+}

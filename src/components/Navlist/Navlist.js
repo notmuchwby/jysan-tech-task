@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styles from './Navlist.module.css'
 
 const Navlist = () => {
-    const [listSelected, setListSelected] = useState(null)
+    const [listSelected, setListSelected] = useState(0)
 
     const handleClick = (index) => {
         setListSelected(index)
