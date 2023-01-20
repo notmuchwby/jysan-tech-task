@@ -20,7 +20,6 @@ import {
     Legend
   )
 
-
 function Graph() {
     const [buttonSelected, setButtonSelected] = useState(0)
     const [priceData, setPriceData] = useState({})
@@ -62,8 +61,6 @@ function Graph() {
         }]
 
     })
-
-    
 
     const options = { 
         plugins: {
